@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T22:39:39.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" version="13.6.10" etag="BlvP-N3l3luXu3yXSqVp" type="github"><diagram id="iTAhbUYJjNUuQgq9rJLk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-13T23:13:44.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Ir4ej7AT73ieouMyXzeO" version="13.6.10" type="github">
+  <diagram id="iTAhbUYJjNUuQgq9rJLk" name="Page-1">
+    <mxGraphModel dx="450" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sdET8ITFFB3io9Shc4G9-1" value="&lt;h4&gt;&lt;b&gt;Vigtige kilder&lt;/b&gt;&lt;/h4&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="Cross-site_request_forgery" id="sdET8ITFFB3io9Shc4G9-2">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+            <mxGeometry y="40" width="180" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cross-site_scripting" link="https://en.wikipedia.org/wiki/Cross-site_scripting" id="sdET8ITFFB3io9Shc4G9-3">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+            <mxGeometry y="80" width="140" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="259.97" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-7" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="sdET8ITFFB3io9Shc4G9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="324.97" as="sourcePoint" />
+            <mxPoint x="136" y="309.97" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-8" value="access token&lt;br&gt;refresh token" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="sdET8ITFFB3io9Shc4G9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-11" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="259.97" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-12" value="Login" style="endArrow=classic;html=1;" edge="1" parent="1" source="sdET8ITFFB3io9Shc4G9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="269.97" as="sourcePoint" />
+            <mxPoint x="290" y="269.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-14" value="Client" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="sdET8ITFFB3io9Shc4G9-12">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-35.6" y="-38.18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-15" value="Server" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="sdET8ITFFB3io9Shc4G9-12">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="50.23" y="-20.03" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-17" value="access token opbevares i en variabel vha. javascript,&lt;br&gt;mens essensen i en refresh token er at den opbevares&lt;br&gt;i en http only cookie - derved at det muligt at en &lt;br&gt;vedholdende brugersession også selv efter browseren&lt;br&gt;måtte være lukket ned." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-18" value="&lt;h1&gt;&lt;b&gt;Setup&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="155" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-19" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="569.97" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-22" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="569.97" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-26" value="&lt;h1&gt;&lt;b&gt;Forespørgsel / Anmodning / Request&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-27" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Bearer djkfs339fkwda&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="611.77" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-31" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;refreshToken sent&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="580" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-32" value="" style="endArrow=classic;html=1;exitX=0.993;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.036;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sdET8ITFFB3io9Shc4G9-22" target="sdET8ITFFB3io9Shc4G9-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="620" as="sourcePoint" />
+            <mxPoint x="340" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-33" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="809.97" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-34" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="809.97" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-35" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;malicious request&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="860" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-38" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;refreshToken sent&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="820" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-40" value="&lt;h1&gt;Hvorfor er det så bedre?&lt;/h1&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-44" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="840" as="sourcePoint" />
+            <mxPoint x="280" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdET8ITFFB3io9Shc4G9-45" value="malicious request&lt;br&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="sdET8ITFFB3io9Shc4G9-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
